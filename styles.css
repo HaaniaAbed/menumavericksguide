@@ -3,5 +3,5 @@ em{
 }
 
 div p{
-  .small_font_19 {font-size:14px;}
+  text-size: .small_font_19 {font-size:14px;}
 }
