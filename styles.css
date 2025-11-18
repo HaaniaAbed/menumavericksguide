@@ -45,3 +45,59 @@ nav ul{
 em{
   color: #0000FF;
 }
+
+/* Font Code*/
+
+/* Code for specific sections*/
+
+nav ul li{
+      padding: 10px;
+      border-radius: 5px;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #FFD700;
+	padding: 10px 20px;
+	background: #750707;
+	border-radius: 5px;
+	border: 1px solid #c95e00;
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1.5px rgba(000,000,000,0.2),
+		0px 1.5px 0px rgba(255,255,255,0.3);
+}
+
+nav a{
+	transition: transform .3s, background-color .7s ease-in .3s;
+	transition: transform .3s, color .3s ease-in .3s;
+}
+
+/* a:hover means whatever your mouse is hovering over*/
+nav a:hover{
+	background-color : #FFD700;
+	color: #750707;
+	transform: scale(1.5);
+}
+
+/* navigation bar end*/
+
+/*@keyframes hero {
+	
+	from{
+		transform: rotate(0) scale(.5);
+		left: 120%;
+	}
+
+	50{
+		transform: rotate(-720deg) scale(.5);
+		left: 0;
+	}
+
+	to{
+		transform: rotate(0) scale(1);	}
+
+}*/
+
