@@ -1,3 +1,21 @@
+/*This goes ontop to ensure the font styles doesn't mess with the flex direction*/
+nav ul{
+  list-styles: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.cta nav ul{
+  list-styles: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+ .small_font_14 {font-size:14px;}
+}
+
 em{
   color: #0000FF;
 }
