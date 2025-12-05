@@ -100,36 +100,34 @@ small,
   font-size: 0.64em;
 }*/
 
-/* Main Flexbox Code */
-
-.nav, .boxes{
-	display: flex;
-	flex-flow: row wrap;
-
+/* CSS Grid Container */
+.gridContainer {
+  display: grid;
+  width: 900px;
+  height: 1200px;
+  grid-template: repeat(3, 1fr) / repeat(4,1fr);
+  gap: 59px;
 }
 
-.nav{
-	justify-content: space-between;
+/* CSS Grid Items */
+.box {
+      margin: 10px;
+      
+      color: #00674F;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.nav a{
-	width: 23%;
+/* Grid Box Text Margin*/
+.box h2, h3, p{
+     margin: 10px;
 }
 
-.boxes div{
-	flex: 1 1 250px ;
-	margin: 10px;
-	border-radius: 5px;
-	padding: 10px 10px 0 10px;
-	color: #c0c0c0;
-    background-image: url(images/dark_embroidery.png);
-	/*background-color: rgba(0,0,0,.1);*/
-	display: flex;
-	flex-flow: column;
-
+.box p{
+        margin: 10px;
+        background-color: #c9a27c;
 }
 
-.boxes .more{
-	margin-top: auto;
-
+/* Paragraph Text color override */
+.top{
+      color:#D6B588;
 }
