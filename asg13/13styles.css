@@ -35,6 +35,14 @@
   src: url('fonts/markazi-text-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Moirai One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/moirai-one-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 html {
 	 color:#FFD700;
 	 font-size: 16px;
@@ -42,7 +50,7 @@ html {
 }
 
 	body {
-  font-family: 'Markazi Text', serif;
+  font-family: 'Moirai One', serif;
   font-weight: false;
   line-height: 1.65;
 }
@@ -57,7 +65,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Almendra', serif;
+  font-family: 'Markazi Text', serif;
   font-weight: true;
   line-height: 1.15;
   /*background-image: url(fancy-cushion-1.webp);*/
@@ -65,7 +73,7 @@ h5 {
 
 h1,
 .text-size-h1 {
-  font-family: 'My Soul', sans-serif;
+  font-family: 'Markazi Text', sans-serif;
   font-weight: 700;
   margin-top: 0;
   font-size: 4.50em;
