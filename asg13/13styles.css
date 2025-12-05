@@ -99,3 +99,37 @@ small,
 .text-small {
   font-size: 0.64em;
 }*/
+
+/* Main Flexbox Code */
+
+.nav, .boxes{
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+.nav{
+	justify-content: space-between;
+}
+
+.nav a{
+	width: 23%;
+}
+
+.boxes div{
+	flex: 1 1 250px ;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px 10px 0 10px;
+	color: #c0c0c0;
+    background-image: url(images/dark_embroidery.png);
+	/*background-color: rgba(0,0,0,.1);*/
+	display: flex;
+	flex-flow: column;
+
+}
+
+.boxes .more{
+	margin-top: auto;
+
+}
