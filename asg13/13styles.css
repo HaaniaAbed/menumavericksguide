@@ -114,8 +114,7 @@ small,
 /* CSS Grid Items */
 .box {
       margin: 10px;
-      
-      
+       background-image: url(images/moroccan-flower-dark.png);
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
