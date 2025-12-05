@@ -115,7 +115,7 @@ small,
 .box {
       margin: 10px;
       
-      color: #00674F;
+      
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -126,7 +126,7 @@ small,
 
 .box p{
         margin: 10px;
-        background-color: #c9a27c;
+        /*background-color: #c9a27c;*/
 }
 
 /* Paragraph Text color override */
