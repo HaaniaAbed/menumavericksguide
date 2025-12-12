@@ -135,7 +135,7 @@ body {
   width: 900px;
   height: 1200px;
   grid-template: repeat(3, 1fr) / repeat(4,1fr);
-  gap: 59px;
+  /*gap: 59px;*/
 }
 
 /* CSS Grid Items */
