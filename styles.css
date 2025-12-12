@@ -109,7 +109,7 @@ nav a {
   border: 0;
 }*/
 
-section {
+.body {
   background-color: rgb(255,255,255);
   border: 3px solid rgb(75, 75, 75);
   box-shadow: 0 0 15px 5px rgb(250, 224, 110);
@@ -120,7 +120,7 @@ section {
   padding: 15px;
 }
 /* CSS Grid Container */
-.gridContainer {
+.body .gridContainer {
   display: grid;
   width: 900px;
   height: 1200px;
@@ -129,7 +129,7 @@ section {
 }
 
 /* CSS Grid Items */
-.box {
+.body .box {
       margin: 10px;
       
       background-color: #D6B588;
@@ -144,16 +144,16 @@ background-repeat: repeat;
 }
 
 /* Grid Box Text Margin*/
-.box h2, h3, p{
+.body .box h2, h3, p{
      margin: 10px;
 }
 
-.box p{
+.body .box p{
         margin: 10px;
         background-color: #c9a27c;
 }
 
 /* Paragraph Text color override */
-.top{
+.body .top{
       color:#D6B588;
 }
