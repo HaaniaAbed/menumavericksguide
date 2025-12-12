@@ -25,18 +25,60 @@
  Insert all your glorious CSS styles below! */
 
 /*This goes ontop to ensure the font styles doesn't mess with the flex direction*/
-nav ul{
-  list-styles: none;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  gap: 40px;
+
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-.cta nav ul{
+nav li, a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+nav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+transform: scale(1.5);
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+  nav ul {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  nav li, a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  nav li, a {
+    text-align: center;
+    float: none;
+  }
+
+/*.cta nav ul{
   list-styles: none;
   display: flex;
   justify-content: center;
@@ -44,14 +86,6 @@ nav ul{
   gap: 40px;
  .small_font_14 {font-size:14px;}
 }
-
-em{
-  color: #0000FF;
-}
-
-/* Font Code*/
-
-/* Code for specific sections*/
 
 nav ul li{
       padding: 10px;
@@ -71,19 +105,18 @@ nav a {
 	text-shadow:
 		0px -1px 1.5px rgba(000,000,000,0.2),
 		0px 1.5px 0px rgba(255,255,255,0.3);
-}
+}*/
 
 nav a{
 	transition: transform .3s, background-color .7s ease-in .3s;
 	transition: transform .3s, color .3s ease-in .3s;
 }
 
-/* a:hover means whatever your mouse is hovering over*/
-nav a:hover{
+/*nav a:hover{
 	background-color : #FFD700;
 	color: #750707;
 	transform: scale(1.5);
-}
+}*/
 
 .active {
   background-color: #04AA6D;
