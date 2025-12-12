@@ -85,6 +85,11 @@ nav a:hover{
 	transform: scale(1.5);
 }
 
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 /* navigation bar end*/
 
 body {
