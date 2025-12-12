@@ -84,6 +84,11 @@ nav a:hover{
 
 /* navigation bar end*/
 
+body {
+  margin: 20px;
+  border: 0;
+}
+
 /* CSS Grid Container */
 .gridContainer {
   display: grid;
