@@ -44,11 +44,10 @@ nav li, a {
   text-decoration: none;
 }
 
-
-nav li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-transform: scale(1.5);
+nav a:hover{
+	background-color : #FFD700;
+	color: #750707;
+	transform: scale(1.5);
 }
 
 div.content {
