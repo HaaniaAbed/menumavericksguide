@@ -84,20 +84,41 @@ nav a:hover{
 
 /* navigation bar end*/
 
-/*@keyframes hero {
-	
-	from{
-		transform: rotate(0) scale(.5);
-		left: 120%;
-	}
+/* CSS Grid Container */
+.gridContainer {
+  display: grid;
+  width: 900px;
+  height: 1200px;
+  grid-template: repeat(3, 1fr) / repeat(4,1fr);
+  gap: 59px;
+}
 
-	50{
-		transform: rotate(-720deg) scale(.5);
-		left: 0;
-	}
+/* CSS Grid Items */
+.box {
+      margin: 10px;
+      
+      background-color: #D6B588;
+opacity: 1;
+background-image:  linear-gradient(135deg, #c9a27c 25%, transparent 25%), linear-gradient(225deg, #c9a27c 25%, transparent 25%), linear-gradient(45deg, #c9a27c 25%, transparent 25%), linear-gradient(315deg, #c9a27c 25%, #D6B588 25%);
+background-position:  40px 0, 40px 0, 0 0, 0 0;
+background-size: 40px 40px;
+background-repeat: repeat;
+      
+      color: #00674F;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
 
-	to{
-		transform: rotate(0) scale(1);	}
+/* Grid Box Text Margin*/
+.box h2, h3, p{
+     margin: 10px;
+}
 
-}*/
+.box p{
+        margin: 10px;
+        background-color: #c9a27c;
+}
 
+/* Paragraph Text color override */
+.top{
+      color:#D6B588;
+}
