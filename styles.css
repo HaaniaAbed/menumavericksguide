@@ -277,6 +277,13 @@ h2, p {
       color:#ffc400;
 }
 
+/* Display of title on navbar*/
+.create a{
+       position: absolute;
+  right: 16px;
+      /*color:#ffc400;*/
+}
+
 /* side bar*/
 aside{
   width: 30%;
