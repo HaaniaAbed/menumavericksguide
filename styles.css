@@ -292,3 +292,7 @@ aside{
       background: url(images/colors.png) no-repeat 5px 5px;
       background-position: center left;
 }
+
+.sum h1{
+      padding-left: 10px;
+}
