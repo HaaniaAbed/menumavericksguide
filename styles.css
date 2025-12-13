@@ -112,17 +112,6 @@ background-repeat: repeat;
       color:#D6B588;
 }
 
-
-
-
-
-
-
-
-New nav bar
-
-
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -160,6 +149,27 @@ div.content {/* this code is no longer needed*/
   padding: 1px 16px;
   height: 1000px;
 }
+
+@media screen and (max-height: 900px) {
+  nav ul {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  nav li, a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}/* this code is no longer needed*/
+}
+
+@media screen and (max-width: 400px) {
+  nav li, a {
+    text-align: center;
+    float: none;
+  }
 
 /*
 nav a {
