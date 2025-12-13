@@ -277,7 +277,7 @@ h2, p {
       color:#ffc400;
 }
 
-
+/* side bar*/
 aside{
   width: 30%;
   float: center;
@@ -285,4 +285,11 @@ aside{
   padding: 10px 20px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+
+/*showing the logo*/
+.sum{
+      background: url(images/colored.png) no-repeat 30px 30px;
+      background-position: center right;
+      border: 5px solid #000;
 }
