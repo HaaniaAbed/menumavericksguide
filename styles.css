@@ -118,7 +118,6 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #38444d;
-text-decoration:none;
 }
 
 nav li {
@@ -130,7 +129,7 @@ nav li, a {
   display: inline-block;
   color: white;
   text-align: center;
-
+text-decoration: none;
 }
 
 nav li a:hover{
