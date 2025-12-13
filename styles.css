@@ -124,10 +124,11 @@ nav li {
   float: left;
 }
 
-nav li, a {
+nav li, a{
   padding: 14px 16px;
   display: inline-block;
   text-align: center;
+   color: white;
 text-decoration: none;
 }
 
