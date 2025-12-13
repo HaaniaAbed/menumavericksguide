@@ -78,7 +78,7 @@ background-image: url(images/geometric.webp);
   display: grid;
   width: 900px;
   height: 1200px;
-  grid-template: repeat(3, 1fr) / repeat(4,1fr);
+  grid-template: repeat(2, 1fr) / repeat(3,1fr);
   /*gap: 59px;*/
 }
 
