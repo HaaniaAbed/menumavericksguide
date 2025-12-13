@@ -103,7 +103,8 @@ h2,
 h3,
 h4,
 h5, 
-nav a{
+nav a,
+.body .box a{
   font-family: 'Asimovian', sans-serif;
   font-weight: true;
   line-height: 1.15;
