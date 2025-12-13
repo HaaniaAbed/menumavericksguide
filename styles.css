@@ -134,7 +134,7 @@ text-decoration: none;
 
 nav a{
     transition: transform .3s, background-color .3s ease-in .3s;
-    transition: transform .3s, color .1.5s ease-in .3s;
+    transition: transform .3s, color .2s ease-in .3s;
 }
 
 
