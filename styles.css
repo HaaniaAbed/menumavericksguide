@@ -32,6 +32,15 @@
   src: url('fonts/asimovian-v2-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+/* edu-nsw-act-foundation-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Edu NSW ACT Foundation';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/edu-nsw-act-foundation-v5-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
@@ -72,7 +81,7 @@ html {
       font-size: 17px;}
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: ''Edu NSW ACT Foundation', sans-serif;
   font-weight: false;
   line-height: 1.65;
 }
@@ -101,7 +110,7 @@ h1,
   margin-top: 20px;
   margin-left: 10px;
 }
-h1, nav.a{
+nav.a{
       font-family: 'Asimovian', sans-serif;
 }
 
