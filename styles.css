@@ -63,7 +63,7 @@ background-image: url(images/geometric.webp);
 
 }
 .body {
-  background-color: rgb(255,255,255);
+  background-color: #4F4F4F;
   border: 3px solid rgb(75, 75, 75);
   box-shadow: 0 0 15px 5px rgb(250, 224, 110);
   max-width: 1060px;
