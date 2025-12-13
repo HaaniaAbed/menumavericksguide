@@ -60,9 +60,10 @@ table {
 html {
  background-color: #e55451;
 background-image: url(images/geometric.webp);
-      margin-bottom: 30px;
+margin-bottom: 100px;
 
 }
+
 .body {
   background-color:  #ffe3a1 /*#ffd7a1*/;
   border: 3px solid rgb(75, 75, 75);
