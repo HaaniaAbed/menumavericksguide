@@ -277,10 +277,10 @@ h2, p {
       color:#ffc400;
 }
 
-/* Display of title on navbar*/
+/* button to create a post*/
 .create a{
        position: absolute;
-  right: 10px;
+  
       /*color:#ffc400;*/
 }
 
