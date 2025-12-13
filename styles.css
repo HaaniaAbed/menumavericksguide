@@ -118,9 +118,11 @@ nav ul {
   padding: 0;
   width: 130px;
   background-color: #e55451;
-  height: 100%; /* Makes bar extend from top to bottom */
-  position: fixed; /* Static despite resizing or scrolling */
-  overflow: auto; /* can scroll or resize with no changes made to the nav bar's look */
+  /* Makes bar extend from top to bottom */
+height: 100%;
+  position: fixed; 
+ /* can scroll or resize with no changes made to the nav bar's look */
+  overflow: auto; 
 }
 
 nav li, a {
@@ -142,7 +144,7 @@ nav a:hover{
     transform: scale(1.5);
 }
 
-div.content {
+div.content {/* this code is no longer needed*/
   margin-left: 25%;
   padding: 1px 16px;
   height: 1000px;
@@ -160,7 +162,7 @@ div.content {
     padding: 15px;
   }
   
-  div.content {margin-left: 0;}
+  div.content {margin-left: 0;}/* this code is no longer needed*/
 }
 
 @media screen and (max-width: 400px) {
