@@ -151,6 +151,12 @@ nav a {
         0px -1px 1.5px rgba(000,000,000,0.2),
         0px 1.5px 0px rgba(255,255,255,0.3);
 }*/
+nav a:hover{
+    background-color: #FFD700;
+    color: #1783c2;
+    transform: scale(1.5);
+}
+
 
 .active a{
   /*background-color: #4CAF50;
