@@ -79,7 +79,7 @@ background-image: url(images/geometric.webp);
   width: 900px;
   height: 1200px;
   grid-template: repeat(2, 1fr) / repeat(3,1fr);
-  /*gap: 59px;*/
+  gap: 29px;
 }
 
 /* CSS Grid Items */
