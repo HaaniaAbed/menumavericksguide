@@ -208,7 +208,7 @@ nav a{
 
 nav a:hover{
     background-color: #FFD700;
-    color: #1783c2;
+    color: #ffc400;
     transform: scale(1.5);
 }
 
@@ -234,7 +234,7 @@ nav a {
   color: white;*/
 /*transform: scale(1.5);*/
   /*background-image: url(images/colored.png);*/
-      color: #FFD700;
+      color: #ffc400;
 }
 
 /* navigation bar end*/
@@ -271,5 +271,5 @@ h2, p {
 .title h1{
        position: absolute;
   right: 16px;
-      color:#e55451;
+      color:#ffc400;
 }
