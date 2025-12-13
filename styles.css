@@ -196,13 +196,13 @@ transform: scale(1.5);
 
 /* navigation bar end*/
 
-footer {
+footer ul, li, p, a{
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-footer p {
+footer ul{
   display: block;
   color: white;
   text-align: center;
