@@ -280,6 +280,7 @@ h2, p {
 /* button to create a post*/
 .create a{
        position: absolute;
+      text-align: right;
   
       /*color:#ffc400;*/
 }
