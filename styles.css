@@ -80,13 +80,21 @@ html {
       background-image: url(images/geometric.webp);
       font-size: 17px;}
 
-.lower a, body {
+body {
   font-family: ''Edu NSW ACT Foundation', sans-serif;
   font-weight: false;
   line-height: 1.65;
 }
 
-.lower a, p {
+/*overriding code for the links that are lower in priority*/
+.lower a{
+   font-family: ''Edu NSW ACT Foundation', sans-serif;
+     font-size: 1em;
+font-weight: false;
+  line-height: 1.65;
+}
+
+p {
   font-size: 1em;
 }
 
