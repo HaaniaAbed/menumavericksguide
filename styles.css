@@ -117,7 +117,7 @@ nav ul {
   margin: 0;
   padding: 0;
   width: 130px;
-  background-color: #f1f1f1;
+  background-color: #e55451;
   height: 100%; /* Makes bar extend from top to bottom */
   position: fixed; /* Static despite resizing or scrolling */
   overflow: auto; /* can scroll or resize with no changes made to the nav bar's look */
