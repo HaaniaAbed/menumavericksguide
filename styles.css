@@ -190,6 +190,7 @@ nav a {
 .active a{
   /*background-color: #4CAF50;
   color: white;*/
+transform: scale(1.5);
   background-image: url(images/colored.png);
 }
 
