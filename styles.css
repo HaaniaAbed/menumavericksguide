@@ -196,15 +196,25 @@ transform: scale(1.5);
 
 /* navigation bar end*/
 
-footer ul, li, p, a{
+.foot ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-footer ul{
+.foot ul, li {
+  float: left;
+}
+
+.foot ul, li, a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
 }
