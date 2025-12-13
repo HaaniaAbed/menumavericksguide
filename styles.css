@@ -145,6 +145,9 @@ small,
   padding: 15px;
 }
 
+/*Text color for the links*/
+a{color: #e55451;}
+
 /* CSS Grid Container */
 .body .gridContainer {
   display: grid;
@@ -156,15 +159,6 @@ small,
 /* CSS Grid Items */
 .body .box {
       margin: 10px;
-      
-      /*background-color: #D6B588;
-opacity: 1;
-background-image:  linear-gradient(135deg, #c9a27c 25%, transparent 25%), linear-gradient(225deg, #c9a27c 25%, transparent 25%), linear-gradient(45deg, #c9a27c 25%, transparent 25%), linear-gradient(315deg, #c9a27c 25%, #D6B588 25%);
-background-position:  40px 0, 40px 0, 0 0, 0 0;
-background-size: 40px 40px;
-background-repeat: repeat;*/
-      
-      /*color: #00674F;*/
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -175,13 +169,7 @@ background-repeat: repeat;*/
 
 .body .box p{
         margin: 10px;
-        /*background-color: #c9a27c;*/
 }
-
-/* Paragraph Text color override */
-/*.body .top{
-      color:#D6B588;
-}*/
 
 nav ul {
   list-style-type: none;
