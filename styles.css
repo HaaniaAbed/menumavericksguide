@@ -105,7 +105,7 @@ h1,
 .text-size-h1 {
   font-family: 'Asimovian', sans-serif;
   font-weight: 700;
-  font-size: 3.05em;
+  font-size: 3.09em;
   
   margin-top: 20px;
   margin-left: 10px;
@@ -115,18 +115,18 @@ nav.a{
 }
 
 h2,
-.text-size-h2 { font-size: 2.44em; }
+.text-size-h2 { font-size: 2.14em; }
 
 h3,
-.text-size-h3 { font-size: 1.95em; }
+.text-size-h3 { font-size: 1.65em; }
 
 h4,
-.text-size-h4 { font-size: 1.56em; }
+.text-size-h4 { font-size: 1.36em; }
 
 h5,
-.text-size-h5 { font-size: 1.25em; }
+.text-size-h5 { font-size: 1.05em; }
 
-.text-caption { font-size: 0.8em; }
+.text-caption { font-size: 0.7em; }
 
 small,
 .text-small {
