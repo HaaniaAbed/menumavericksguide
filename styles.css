@@ -87,7 +87,7 @@ body {
 }
 
 /*overriding code for the links that are lower in priority*/
-.lower a{
+.body .box .lower a{
    font-family: ''Edu NSW ACT Foundation', sans-serif;
      font-size: 1em;
 font-weight: false;
