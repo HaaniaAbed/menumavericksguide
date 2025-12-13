@@ -95,8 +95,8 @@ h2,
 h3,
 h4,
 h5, 
-nav.a{
-  font-family: 'Open Sans', sans-serif;
+a{
+  font-family: 'Asimovian', sans-serif;
   font-weight: true;
   line-height: 1.15;
 }
@@ -195,7 +195,7 @@ nav li {
   float: left;
 }
 
-nav li, a{
+nav li, nav a{
   padding: 14px 16px;
   display: inline-block;
   text-align: center;
