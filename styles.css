@@ -163,8 +163,8 @@ small,
   padding: 15px;
 }
 
-/*Text color for the links*/
-a{color: #e55451;}
+/*Text color for the links and for the words on the recipe page*/
+a, .red{color: #e55451;}
 
 /* CSS Grid Container */
 .body .gridContainer {
@@ -188,7 +188,9 @@ a{color: #e55451;}
 .body .box p{
         margin: 10px;
 }
+/*Grid Code ends*/
 
+/* Nav Bar Code*/
 nav ul {
   list-style-type: none;
   margin: 0;
