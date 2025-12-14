@@ -167,7 +167,7 @@ small,
 a{color: #e55451;}
 
 /* Text Color override for the links that go to different pages and for the top text in receipes*/
-.page a, .red
+.to a, .red
 {
      color: #1783c2; 
 }
