@@ -163,9 +163,10 @@ small,
   padding: 15px;
 }
 
-/*Text color for the links and for the words on the recipe page*/
+/*Text color for the regular links*/
 a{color: #e55451;}
 
+/* Text Color override for the links that go to different pages and for the top text in receipes*/
 .box a, .red
 {
      color: #1783c2; 
