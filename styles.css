@@ -164,7 +164,12 @@ small,
 }
 
 /*Text color for the links and for the words on the recipe page*/
-a, .red{color: #e55451;}
+a{color: #e55451;}
+
+.box a, .red
+{
+     color: #1783c2; 
+}
 
 /* CSS Grid Container */
 .body .gridContainer {
