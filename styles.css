@@ -186,11 +186,6 @@ a{color: #e55451;}
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-/*Changing color of the links to other pages*/
-.box .to{
-      background-color: #ffc400;
-}
-
 /* Grid Box Text Margin*/
 .body .box h2, h3, p{
      margin: 10px;
